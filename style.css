@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  /* background-color: greenyellow; */
+}
+body{
+  background-image: url(./2024_Eid_ul_Adha.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#days-items, #hours-items, #mins-items, #sec-items{
+  /* background-color: red; */
+  margin-left: 20px;
+  text-align: center;
+  font-size:30px ;
+  width: 100px;
+  border-radius:15px;
+  font-family: cardo-bold;
+  border: 1px solid rgb(150, 4, 150);
+  color:rgba(1, 46, 27, 0.651);
+  margin-top: 20px;
+}
+p{
+  font-size: 20px;
+}
+#years{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  letter-spacing: 8px;
+  color: rgba(1, 46, 27, 0.651);
+}
+#heading{
+  font-size: 40px;
+  font-family: cardo-bold;
+  color: rgb(150, 4, 150);
+  margin-top: 20px;
+}
+#text{
+  text-align: center;
+}
+@font-face {
+  font-family:cardo-bold ;
+  src: url(Cardo-Bold.ttf);
+}
